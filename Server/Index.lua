@@ -36,7 +36,7 @@ testing_map_spawns = {
 	Prop(Vector(-5185, 6903, 102), Rotator(), "NanosWorld::SM_PlasticBarrel_01"),
 	Prop(Vector(-2049, 6599, 133), Rotator(), "NanosWorld::SM_RockingChair"),
 	Prop(Vector(-994, 4991, 140), Rotator(), "NanosWorld::SM_RoundStand"),
-	Prop(Vector(-3767, 7941, 102), Rotator(0, -33.750046, 0), "NanosWorld:.SM_Bottle_02"),
+	Prop(Vector(-3767, 7941, 102), Rotator(0, -33.750046, 0), "NanosWorld:SM_Bottle_02"),
 	Prop(Vector(-3828, 7946, 102), Rotator(), "NanosWorld::SM_Bottle_01"),
 	Prop(Vector(-3916, 8078, 124.489), Rotator(), "NanosWorld::SM_Bottle"),
 	Prop(Vector(-5617, 7980, 180), Rotator(), "NanosWorld::SM_Bunny"),

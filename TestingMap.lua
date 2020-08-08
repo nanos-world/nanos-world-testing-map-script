@@ -1,3 +1,5 @@
+Package:RequirePackage("NanosWorldWeapons")
+
 testing_map_spawns = {
 	Prop(Vector(-1676, 6963, 132), Rotator(), "NanosWorld::SM_WoodenTable"),
 	Prop(Vector(-1711, 7008, 132), Rotator(0, -150, 0), "NanosWorld::SM_WoodenChair"),
@@ -54,21 +56,6 @@ testing_map_spawns = {
 	Prop(Vector(-5929, 8126, 229), Rotator(), "NanosWorld::SM_Toolbox_06"),
 	Prop(Vector(-5932, 8178, 230), Rotator(), "NanosWorld::SM_VaseA"),
 	Prop(Vector(-1034, 5557, 235), Rotator(), "NanosWorld::SM_CupD"),
-	Prop(Vector(8352, -3766, 157), Rotator(), "NanosWorld::SM_Cube_02"),
-	Prop(Vector(8497, -3766, 152), Rotator(), "NanosWorld::SM_Cube_02"),
-	Prop(Vector(8636, -3766, 152), Rotator(), "NanosWorld::SM_Cube_02"),
-	Prop(Vector(8775, -3766, 152), Rotator(), "NanosWorld::SM_Cube_02"),
-	Prop(Vector(8916, -3766, 156), Rotator(), "NanosWorld::SM_Cube_02"),
-	Prop(Vector(8430, -3766, 260), Rotator(), "NanosWorld::SM_Cube_02"),
-	Prop(Vector(8575, -3766, 255), Rotator(), "NanosWorld::SM_Cube_02"),
-	Prop(Vector(8714, -3766, 255), Rotator(), "NanosWorld::SM_Cube_02"),
-	Prop(Vector(8853, -3766, 260), Rotator(), "NanosWorld::SM_Cube_02"),
-	Prop(Vector(8506, -3766, 361), Rotator(), "NanosWorld::SM_Cube_02"),
-	Prop(Vector(8645, -3766, 361), Rotator(), "NanosWorld::SM_Cube_02"),
-	Prop(Vector(8784, -3766, 365), Rotator(), "NanosWorld::SM_Cube_02"),
-	Prop(Vector(8571, -3766, 472), Rotator(), "NanosWorld::SM_Cube_02"),
-	Prop(Vector(8710, -3766, 472), Rotator(), "NanosWorld::SM_Cube_02"),
-
 
 	NanosWorldWeapons.AK47(Vector(-1850, 9153, 192), Rotator(0, 90, 90)),
 	NanosWorldWeapons.AK74U(Vector(-1900, 9153, 192), Rotator(0, 90, 90)),
@@ -79,7 +66,7 @@ testing_map_spawns = {
 	NanosWorldWeapons.Glock(Vector(-2150, 9153, 192), Rotator(0, 90, 90)),
 	NanosWorldWeapons.DesertEagle(Vector(-2200, 9153, 192), Rotator(0, 90, 90)),
 	NanosWorldWeapons.AR4(Vector(-2250, 9153, 192), Rotator(0, 90, 90)),
-	Grenade(Vector(-2300, 9153, 192), Rotator(0, 90, 90), "NanosWorld::BP_Grenade_G67"),
+	Grenade(Vector(-2300, 9153, 192), Rotator(0, 90, 90), "NanosWorld::SM_Grenade_G67"),
 
 	NanosWorldWeapons.AK47(Vector(-1850, 9234, 192), Rotator(0, 90, 90)),
 	NanosWorldWeapons.AK74U(Vector(-1900, 9234, 192), Rotator(0, 90, 90)),
@@ -90,7 +77,7 @@ testing_map_spawns = {
 	NanosWorldWeapons.Glock(Vector(-2150, 9234, 192), Rotator(0, 90, 90)),
 	NanosWorldWeapons.DesertEagle(Vector(-2200, 9234, 192), Rotator(0, 90, 90)),
 	NanosWorldWeapons.AR4(Vector(-2250, 9234, 192), Rotator(0, 90, 90)),
-	Grenade(Vector(-2300, 9234, 192), Rotator(0, 90, 90), "NanosWorld::BP_Grenade_G67"),
+	Grenade(Vector(-2300, 9234, 192), Rotator(0, 90, 90), "NanosWorld::SM_Grenade_G67"),
 
 	NanosWorldWeapons.Glock(Vector(-5120, 6977, 195), Rotator(0, -45, -90)),
 	NanosWorldWeapons.Glock(Vector(-5067, 6948, 195), Rotator(0, 0, -90)),
@@ -134,7 +121,7 @@ testing_map_spawns = {
 	NanosWorldWeapons.AR4(Vector(-9208, -3325, 112), Rotator(0, 0, 90)),
 	NanosWorldWeapons.Moss500(Vector(2001, -10769, 123), Rotator(0, 0, 90)),
 	NanosWorldWeapons.Moss500(Vector(2001, -10669, 123), Rotator(0, 0, 90)),
-	Grenade(Vector(2001, -10380, 123), Rotator(), "NanosWorld::BP_Grenade_G67"),
+	Grenade(Vector(2001, -10380, 123), Rotator(), "NanosWorld::SM_Grenade_G67"),
 
 	NanosWorldWeapons.AP5(Vector(-10030, -2039, 100), Rotator(0, 0, -90)),
 	NanosWorldWeapons.SMG11(Vector(-10167, -1895, 101), Rotator(0, 0, -90)),

@@ -1,4 +1,5 @@
 Package:RequirePackage("NanosWorldWeapons")
+Package:RequirePackage("NanosWorldVehicles")
 
 testing_map_spawns = {
 	Prop(Vector(-1676, 6963, 132), Rotator(), "NanosWorld::SM_WoodenTable"),
@@ -95,12 +96,12 @@ testing_map_spawns = {
 	NanosWorldWeapons.AK47(Vector(9137, 1243, 113), Rotator(-5, 0, -90)),
 	NanosWorldWeapons.GE36(Vector(9137, 1155, 113), Rotator(-5, 0, -90)),
 
-	Vehicle(Vector(-40, 7262, 130), Rotator(0, -80, 0), "NanosWorld::BP_Vehicle_SUV"),
-	Vehicle(Vector(530, 7344, 130), Rotator(0, -80, 0), "NanosWorld::BP_Vehicle_Pickup"),
-	Vehicle(Vector(480, 5080, 100), Rotator(0, -10, 0), "NanosWorld::BP_Vehicle_Truck"),
-	Vehicle(Vector(1720, 1660, 118), Rotator(), "NanosWorld::BP_Vehicle_Truck_Chassis"),
-	Vehicle(Vector(9650, -2840, 80), Rotator(0, -137, 0), "NanosWorld::BP_Vehicle_Hatchback"),
-	Vehicle(Vector(-10630.0, 6870.0, 80), Rotator(0, -137, 0), "NanosWorld::BP_Vehicle_SportCar"),
+	NanosWorldVehicles.SUV(Vector(-40, 7262, 130), Rotator(0, -80, 0)),
+	NanosWorldVehicles.Pickup(Vector(530, 7344, 130), Rotator(0, -80, 0)),
+	NanosWorldVehicles.TruckBox(Vector(480, 5080, 100), Rotator(0, -10, 0)),
+	NanosWorldVehicles.TruckChassis(Vector(1720, 1660, 118), Rotator()),
+	NanosWorldVehicles.Hatchback(Vector(9650, -2840, 80), Rotator(0, -137, 0)),
+	NanosWorldVehicles.SportsCar(Vector(-10630.0, 6870.0, 80), Rotator(0, -137, 0)),
 
 	Item(Vector(-1786, 7273, 120), Rotator(), "NanosWorld::BP_Grabable_Torch"),
 	Item(Vector(7575, 5287, 133), Rotator(0, 0, 15), "NanosWorld::BP_Grabable_Torch"),
@@ -131,7 +132,7 @@ testing_map_spawns = {
 }
 
 local spawn_locations = {
-	Vector(-2006, 8287, 100),
+	Vector(-2006, 8287, 200),
 	Vector(-4701, 7058, 236),
 	Vector(7065, 5516, 210),
 	Vector(4084, 8175, 238),

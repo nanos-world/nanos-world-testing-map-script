@@ -166,5 +166,7 @@ local spawn_locations = {
 	Vector(-4014, -4765, 714)
 }
 
--- Calls a custom event "MapLoaded" with this map's spawn locations, which can be catched by the main script
-Events:Call("MapLoaded", {spawn_locations})
+Package:Subscribe("Load", function()
+	-- Calls a custom event "MapLoaded" with this map's spawn locations, which can be caught by the main script
+	Events:Call("MapLoaded", {spawn_locations})
+end)

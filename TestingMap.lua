@@ -1,5 +1,5 @@
-Package:RequirePackage("NanosWorldWeapons")
-Package:RequirePackage("NanosWorldVehicles")
+Package.RequirePackage("NanosWorldWeapons")
+Package.RequirePackage("NanosWorldVehicles")
 
 testing_map_spawns = {
 	Prop(Vector(-1676.000, 6963.000, 132.000), Rotator(0.000000, 0.000000, 0.000000), "NanosWorld::SM_WoodenTable"),
@@ -166,7 +166,7 @@ local spawn_locations = {
 	Vector(-4014, -4765, 714)
 }
 
-Package:Subscribe("Load", function()
+Package.Subscribe("Load", function()
 	-- Calls a custom event "MapLoaded" with this map's spawn locations, which can be caught by the main script
-	Events:Call("MapLoaded", {spawn_locations})
+	Events.Call("MapLoaded", spawn_locations)
 end)

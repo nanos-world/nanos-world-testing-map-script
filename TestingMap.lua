@@ -1,7 +1,7 @@
-Package.RequirePackage("NanosWorldWeapons")
-Package.RequirePackage("NanosWorldVehicles")
+Package.RequirePackage("nanos-world-weapons")
+Package.RequirePackage("nanos-world-vehicles")
 
-testing_map_spawns = {
+TESTING_MAP_SPAWNS = {
 	Prop(Vector(-1676.000, 6963.000, 132.000), Rotator(0.000000, 0.000000, 0.000000), "nanos-world::SM_WoodenTable"),
 	Prop(Vector(-1711.000, 7008.000, 132.000), Rotator(0.000000, -149.999969, 0.000000), "nanos-world::SM_WoodenChair"),
 	Prop(Vector(-1786.000, 7273.000, 102.000), Rotator(0.000000, 0.000000, 0.000000), "nanos-world::SM_TireLarge"),
@@ -142,7 +142,7 @@ testing_map_spawns = {
 	NanosWorldWeapons.AP5(Vector(-5243, -115, 481), Rotator(0, 90, -90)),
 }
 
-local spawn_locations = {
+SPAWN_LOCATIONS = {
 	Vector(-2006, 8287, 200),
 	Vector(-4701, 7058, 236),
 	Vector(7065, 5516, 210),
@@ -168,5 +168,5 @@ local spawn_locations = {
 
 Package.Subscribe("Load", function()
 	-- Calls a custom event "MapLoaded" with this map's spawn locations, which can be caught by the main script
-	Events.Call("MapLoaded", spawn_locations)
+	Events.Call("MapLoaded", SPAWN_LOCATIONS)
 end)

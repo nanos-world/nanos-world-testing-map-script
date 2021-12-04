@@ -120,9 +120,6 @@ TESTING_MAP_SPAWNS = {
 	NanosWorldVehicles.Hatchback(Vector(9650, -2840, 80), Rotator(0, -137, 0)),
 	NanosWorldVehicles.SportsCar(Vector(-10630.0, 6870.0, 80), Rotator(0, -137, 0)),
 
-	Item(Vector(-1786, 7273, 120), Rotator(), "nanos-world::SM_Torch"),
-	Item(Vector(7575, 5287, 133), Rotator(0, 0, 15), "nanos-world::SM_Torch"),
-
 	NanosWorldWeapons.AK47(Vector(-10928, 4225, 118), Rotator(0, 0, -90)),
 	NanosWorldWeapons.AK74U(Vector(-10940, 4150, 118), Rotator(0, 0, -90)),
 	NanosWorldWeapons.ASVal(Vector(-10950, 4066, 118), Rotator(0, 0, -90)),

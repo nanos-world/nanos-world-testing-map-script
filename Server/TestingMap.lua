@@ -144,32 +144,3 @@ TESTING_MAP_SPAWNS = {
 	NanosWorldWeapons.GE36(Vector(-5243.0, -236, 481), Rotator(0, 90, -90)),
 	NanosWorldWeapons.AP5(Vector(-5243, -115, 481), Rotator(0, 90, -90)),
 }
-
-SPAWN_LOCATIONS = {
-	Vector(-2006, 8287, 200),
-	Vector(-4701, 7058, 236),
-	Vector(7065, 5516, 210),
-	Vector(4084, 8175, 238),
-	Vector(-4661, -688, 295),
-	Vector(9349, -776, 215),
-	Vector(6221, -7602, 197),
-	Vector(344, -4713, 517),
-	Vector(-2352, -6579, 313),
-	Vector(-7831, -7635, 197),
-	Vector(-9481, -2884, 185),
-	Vector(-8014, -754, 394),
-	Vector(-9400, 3869, 186),
-	Vector(-5850, 8164, 222),
-	Vector(-2050, 6654, 228),
-	Vector(-1207, 5057, 235),
-	Vector(3760, 10620, 119),
-	Vector(3143, 8325, 248),
-	Vector(6910, -1799, 267),
-	Vector(1569, -10662, 216),
-	Vector(-4014, -4765, 714)
-}
-
-Package.Subscribe("Load", function()
-	-- Calls a custom event "MapLoaded" with this map's spawn locations, which can be caught by the main script
-	Events.Call("MapLoaded", SPAWN_LOCATIONS)
-end)

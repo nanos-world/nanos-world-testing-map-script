@@ -1,0 +1,32 @@
+# map default configurations
+[map]
+    # compatible game-modes
+    compatible_game_modes = [
+    ]
+
+    # list of spawn locations
+    spawn_points = [
+        { location = "Vector(-2006, 8287, 200)", rotation = "Rotator()" },
+        { location = "Vector(-4701, 7058, 236)", rotation = "Rotator()" },
+        { location = "Vector(7065, 5516, 210)", rotation = "Rotator()" },
+        { location = "Vector(4084, 8175, 238)", rotation = "Rotator()" },
+        { location = "Vector(-4661, -688, 295)", rotation = "Rotator()" },
+        { location = "Vector(9349, -776, 215)", rotation = "Rotator()" },
+        { location = "Vector(6221, -7602, 197)", rotation = "Rotator()" },
+        { location = "Vector(344, -4713, 517)", rotation = "Rotator()" },
+        { location = "Vector(-2352, -6579, 313)", rotation = "Rotator()" },
+        { location = "Vector(-7831, -7635, 197)", rotation = "Rotator()" },
+        { location = "Vector(-9481, -2884, 185)", rotation = "Rotator()" },
+        { location = "Vector(-8014, -754, 394)", rotation = "Rotator()" },
+        { location = "Vector(-9400, 3869, 186)", rotation = "Rotator()" },
+        { location = "Vector(-5850, 8164, 222)", rotation = "Rotator()" },
+        { location = "Vector(-2050, 6654, 228)", rotation = "Rotator()" },
+        { location = "Vector(-1207, 5057, 235)", rotation = "Rotator()" },
+        { location = "Vector(3760, 10620, 119)", rotation = "Rotator()" },
+        { location = "Vector(3143, 8325, 248)", rotation = "Rotator()" },
+        { location = "Vector(6910, -1799, 267)", rotation = "Rotator()" },
+        { location = "Vector(1569, -10662, 216)", rotation = "Rotator()" },
+        { location = "Vector(-4014, -4765, 714)", rotation = "Rotator()" },
+    ]
+
+[custom_data]

@@ -76,6 +76,7 @@ if (NanosWorldVehicles) then
 	NanosWorldVehicles.TruckChassis(Vector(1720, 1660, 118), Rotator())
 	NanosWorldVehicles.Hatchback(Vector(9650, -2840, 80), Rotator(0, -137, 0))
 	NanosWorldVehicles.SportsCar(Vector(-10630.0, 6870.0, 80), Rotator(0, -137, 0))
+	NanosWorldVehicles.Boat(Vector(-5623.0, 11298.0, 5), Rotator(0, 0, 0))
 end
 
 if (NanosWorldWeapons) then

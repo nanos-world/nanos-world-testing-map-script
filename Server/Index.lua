@@ -22,7 +22,7 @@ Prop(Vector(-5250.000, -375.000, 426.000), Rotator(0.000000, 0.000000, 0.000000)
 Prop(Vector(-5520.000, 5.000, 481.000), Rotator(0.000000, 0.000000, 0.000000), "nanos-world::SM_Basket_01")
 Prop(Vector(-5060.000, -340.000, 431.000), Rotator(0.000000, 0.000000, 0.000000), "nanos-world::SM_WoodenTable")
 Prop(Vector(-5060.000, -310.000, 516.000), Rotator(0.000000, 0.000000, 0.000000), "nanos-world::SM_Crate_03")
-Prop(Vector(-5520.000, 600.000, 514.792), Rotator(0.000000, 0.000000, -89.999962), "nanos-world::SM_TireLarge")
+Prop(Vector(-5520.000, 369.000, 530.000), Rotator(0.000000, 0.000000, -100.000000), "nanos-world::SM_TireLarge")
 Prop(Vector(-965.000, 5555.000, 141.000), Rotator(0.000000, 75.937462, 0.000000), "nanos-world::SM_WoodenChair")
 Prop(Vector(-1055.000, 5580.000, 141.000), Rotator(0.000000, 0.000000, 0.000000), "nanos-world::SM_WoodenTable")
 Prop(Vector(-1135.000, 5555.000, 141.000), Rotator(0.000000, -70.312706, 0.000000), "nanos-world::SM_WoodenChair")
@@ -76,7 +76,7 @@ if (NanosWorldVehicles) then
 	NanosWorldVehicles.TruckChassis(Vector(1720, 1660, 118), Rotator())
 	NanosWorldVehicles.Hatchback(Vector(9650, -2840, 80), Rotator(0, -137, 0))
 	NanosWorldVehicles.SportsCar(Vector(-10630.0, 6870.0, 80), Rotator(0, -137, 0))
-	NanosWorldVehicles.Boat(Vector(-5623.0, 11298.0, 5), Rotator(0, 0, 0))
+	NanosWorldVehicles.Boat(Vector(-5623.0, 11298.0, 5), Rotator(0, -90, 0))
 end
 
 if (NanosWorldWeapons) then
@@ -108,7 +108,6 @@ if (NanosWorldWeapons) then
 	NanosWorldWeapons.Makarov(Vector(-5067, 6948, 195), Rotator(0, 0, -90))
 	NanosWorldWeapons.M1911(Vector(-5008, 6912, 195), Rotator(0, -22, -90))
 	NanosWorldWeapons.SMG11(Vector(-973, 4995, 235), Rotator(0, 0, -90))
-	NanosWorldWeapons.GE36(Vector(3660, 11025, 57), Rotator(0, 0, 90))
 	NanosWorldWeapons.AK47(Vector(7543, 5589, 212), Rotator(0, 90, 90))
 	NanosWorldWeapons.AK74U(Vector(7466, 5589, 212), Rotator(0, 90, 90))
 	NanosWorldWeapons.AR4(Vector(7368, 5589, 212), Rotator(0, 90, 90))
@@ -123,10 +122,6 @@ if (NanosWorldWeapons) then
 	NanosWorldWeapons.AK47(Vector(-10928, 4225, 118), Rotator(0, 0, -90))
 	NanosWorldWeapons.AK74U(Vector(-10940, 4150, 118), Rotator(0, 0, -90))
 	NanosWorldWeapons.ASVal(Vector(-10950, 4066, 118), Rotator(0, 0, -90))
-
-	NanosWorldWeapons.GE36(Vector(-8029, 4132, 321), Rotator(0, 0, 90))
-	NanosWorldWeapons.AP5(Vector(-7945, 4132, 321), Rotator(0, 0, 90))
-	NanosWorldWeapons.AR4(Vector(-7857, 4132, 321), Rotator(0, 0, 90))
 
 	NanosWorldWeapons.AK74U(Vector(-9129, -3325, 112), Rotator(0, 0, 90))
 	NanosWorldWeapons.ASVal(Vector(-9129, -3237, 112), Rotator(0, 0, 90))

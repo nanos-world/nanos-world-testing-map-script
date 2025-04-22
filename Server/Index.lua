@@ -76,7 +76,7 @@ if (NanosWorldVehicles) then
 	NanosWorldVehicles.TruckChassis(Vector(1720, 1660, 118), Rotator())
 	NanosWorldVehicles.Hatchback(Vector(9650, -2840, 80), Rotator(0, -137, 0))
 	NanosWorldVehicles.SportsCar(Vector(-10630.0, 6870.0, 80), Rotator(0, -137, 0))
-	NanosWorldVehicles.Boat(Vector(-5623.0, 11298.0, 5), Rotator(0, -90, 0))
+	NanosWorldVehicles.Boat(Vector(-5623.0, 11298.0, 5), Rotator(0, 0, 0))
 end
 
 if (NanosWorldWeapons) then
@@ -92,8 +92,8 @@ if (NanosWorldWeapons) then
 	NanosWorldWeapons.ASVal(Vector(-2300, 9153, 192), Rotator(0, 90, 90))
 	NanosWorldWeapons.G67(Vector(-2350, 9153, 192), Rotator(0, 90, 90))
 
-	NanosWorldWeapons.UMP45(Vector(-1850, 9234, 192), Rotator(0, 90, 90))
-	NanosWorldWeapons.P90(Vector(-1900, 9234, 192), Rotator(0, 90, 90))
+	NanosWorldWeapons.UMP45(Vector(-1850, 9250, 192), Rotator(0, 90, 90))
+	NanosWorldWeapons.P90(Vector(-1900, 9250, 192), Rotator(0, 90, 90))
 	NanosWorldWeapons.GE3(Vector(-1950, 9234, 192), Rotator(0, 90, 90))
 	NanosWorldWeapons.AK5C(Vector(-2000, 9234, 192), Rotator(0, 90, 90))
 	NanosWorldWeapons.SA80(Vector(-2050, 9234, 192), Rotator(0, 90, 90))
@@ -112,7 +112,6 @@ if (NanosWorldWeapons) then
 	NanosWorldWeapons.AK74U(Vector(7466, 5589, 212), Rotator(0, 90, 90))
 	NanosWorldWeapons.AR4(Vector(7368, 5589, 212), Rotator(0, 90, 90))
 	NanosWorldWeapons.Ithaca37(Vector(7343, 5572, 156), Rotator(0, 0, 90))
-	NanosWorldWeapons.Moss500(Vector(7481, 5572, 156), Rotator(0, 0, 90))
 	NanosWorldWeapons.AP5(Vector(-4054, 8095, 145), Rotator(0, 0, -90))
 
 	NanosWorldWeapons.AK74U(Vector(9137, 1304, 113), Rotator(0, 0, -90))
